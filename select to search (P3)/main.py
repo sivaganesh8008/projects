@@ -6,7 +6,7 @@ from PIL import Image
 import io
 
 # Set up Google Gemini AI API (Replace with your API key)
-API_KEY = " YOUR API KEY"
+API_KEY = " YOUR_API_KEY"
 genai.configure(api_key=API_KEY)
 
 class ScreenshotTool(QWidget):
